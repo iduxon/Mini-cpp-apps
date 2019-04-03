@@ -1,9 +1,5 @@
-#include <iostream>
+#include "fraction.h"
+#include "function_declarations.h"
+#include "linkedlist.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello World!" << endl;
-    return 0;
-}
+int main() { return 0; }
