@@ -1,5 +1,6 @@
-#include "fraction.h"
 #include "function_declarations.h"
-#include "linkedlist.h"
 
-int main() { return 0; }
+int main() {
+  int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
+  int n = getPairsCount(arr, 5, std::cend(arr) - std::cbegin(arr));
+}

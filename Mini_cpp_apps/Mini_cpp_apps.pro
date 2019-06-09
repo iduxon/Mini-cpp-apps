@@ -2,7 +2,7 @@
 QT += widgets
 QT += core
 TEMPLATE = app
-CONFIG += console c++14
+CONFIG += console c++17
 CONFIG -= app_bundle
 
 
@@ -17,13 +17,17 @@ SOURCES += \
     raii.cpp \
     sharedptr_singleton.cpp \
     split_string.cpp \
-    vocab.cpp
+    vocab.cpp \
+    integer_base.cpp \
+    getpairscount.cpp \
+    pattern.cpp
 
 HEADERS += \
     function_declarations.h \
     Fraction.h \
     linkedlist.h \
-    raii.h
+    raii.h \
+    integer_base.h
 
 DISTFILES += \
     words

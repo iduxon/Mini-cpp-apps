@@ -16,8 +16,7 @@
   do {                                                                         \
     if (!(expr))                                                               \
       osErrorFatal(usrMsg);                                                    \
-    \
-                                                                          \
+                                                                               \
   } while (0)
 
 void osErrorFatalImpl(const char *usrMsg, const char *fileName,
@@ -29,6 +28,8 @@ void osErrorFatalImpl(const char *usrMsg, const char *fileName,
 }
 
 #endif
+
+int val(char c);
 
 void arb_selection_move();
 
@@ -49,6 +50,8 @@ public:
 template <typename T> void partition(std::vector<T> &xs);
 
 std::vector<std::string> split(const std::string &str);
+
+int getPairsCount(int arr[], int sum, int n);
 
 #include "equality.cpp"
 
