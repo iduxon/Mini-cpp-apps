@@ -1,0 +1,12 @@
+release/main.o
+release/arb_selection_move.o
+release/count_adj_equals.o
+release/Fraction.o
+release/is_sorted.o
+release/partition.o
+release/raii.o
+release/sharedptr_singleton.o
+release/split_string.o
+release/vocab.o
+release/integer_base.o
+release/getpairscount.o

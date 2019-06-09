@@ -1,0 +1,12 @@
+debug/main.o
+debug/arb_selection_move.o
+debug/count_adj_equals.o
+debug/Fraction.o
+debug/is_sorted.o
+debug/partition.o
+debug/raii.o
+debug/sharedptr_singleton.o
+debug/split_string.o
+debug/vocab.o
+debug/integer_base.o
+debug/getpairscount.o
